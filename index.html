@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RONDAS MIZZ FRIZZ</title>
+</head>
+<body>
+    <div class="container">
+        <h1>RONDAS MIZZ FRIZZ</h1>
+        
+        
+        <div class="imagencita">
+            <img src="./pics/mizz.png" alt="">
+        </div>
+        <div class="button-container">
+            <label for="nombreCliente"><h2>Nombre del Cliente:</h2></label>
+            <input type="text" id="nombreCliente" onkeypress="handleKeyPress(event)">
+            <label for="rondasPagadas"><h2>Rondas Pagadas:</h2></label>
+            <input type="number" id="rondasPagadas" onkeypress="handleKeyPress(event)">
+            <div class="separis">
+                <button class="registrar-button" onclick="registrarPago()">Registrar Pago</button>
+                <button class="descontar-button" onclick="descontarRonda()">Descontar Ronda</button>
+            </div>
+
+        </div>
+        <div id="estado"></div>
+        <div id="alerta-container"></div>
+        <div class="mera">
+            <div class="mi-contador">
+                <div class="eche">
+                    <h6>RONDAS TOTALES</h6>
+                    <button  onclick="restarContador()">-</button>
+                    <span id="mi-rondas">0</span>
+                    <button class="plusito" onclick="sumarContador()">+</button>
+                </div>
+
+                <p id="mi-hora-actualizacion"></p>
+
+                
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

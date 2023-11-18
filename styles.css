@@ -1,0 +1,222 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+   
+}
+h2{
+    margin-top: 0;
+}
+
+h3{
+    margin: 0;
+}
+
+h4{
+    margin: 0;
+    font-weight: lighter;
+}
+
+h6{ margin: 0;
+    font-weight: 600;}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 20px); /* Ajuste del ancho del input */
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Ajuste del tamaño total */
+}
+
+button {
+    
+    
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    
+}
+
+.registrar-button {
+    background-color: #0070c9;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.descontar-button {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+#estado {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li button {
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+li span {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+li p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.alerta-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    max-width: 300px;
+}
+
+.alerta {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cerrar-alerta {
+    cursor: pointer;
+}
+
+
+
+
+.test {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.test2{
+    width: 50%;
+}
+
+.test3{
+  padding-left: 50px;
+}
+.sumador {
+    
+    color: black;
+    background-color: lightgreen;
+}
+
+.restador{
+    background-color: #0070c9;
+    color: #fff;
+}
+
+.eliminador{
+    background-color: d32f2f;
+    color: #fff;
+}
+.separis{
+
+    display: flex;
+    
+    justify-content: space-between;
+    
+    gap: 10px;
+    margin: 10px 
+}
+.separis button{
+    width: 100%;
+}
+
+.mera{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  
+}
+.mi-contador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+
+
+}
+
+.plusito{
+    background-color: lightgreen;
+    
+}
+
+.eche {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+}
